@@ -13,21 +13,25 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(/assets/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 7%;
+  padding-left:22px;
+  background-position: 2px 2px; /* X ve Y pozisyonu (X: 10px, Y: 5px) */
+
 }
 
 .body {
   background-color: #f3f2ef;
 }
 
-.menutext {
-  font-size: 13px;
+.menutext  {
+  font-size: 13px; 
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
   margin-top: 5px;
   font-weight: lighter;
+ 
 }
 
 .menutext:hover {
@@ -65,9 +69,11 @@ input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(/assets/edit-regular.svg);
   background-repeat: no-repeat;
   background-size: auto;
+  padding-left:25px;
+ 
 }
 
 div.card {
